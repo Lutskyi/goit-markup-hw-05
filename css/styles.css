@@ -452,24 +452,27 @@ ul {
 
 /* Footer form*/
 .footer-right {
-  display: flex;
+  display: inline-block;
+  margin-left: 80px;
 }
 
 .footer-right-text {
   color: var(--White-background);
   margin-bottom: 16px;
+  width: 75px;
+  height: 24px;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  margin-right: auto;
 }
 
 .footer-form {
   display: flex;
   gap: 24px;
-  margin-left: 159px;
 }
 
 .footer-form-input {
@@ -482,6 +485,7 @@ ul {
   font-size: 12px;
   line-height: 1.5;
   padding-left: 16px;
+  letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .footer-form-input::placeholder {
@@ -511,7 +515,7 @@ ul {
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
-  margin-left: 24px;
+  margin-left: 16px;
 }
 
 .icon-footer-from-click {
