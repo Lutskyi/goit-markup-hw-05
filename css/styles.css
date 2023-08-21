@@ -866,7 +866,7 @@ ul {
   padding: 16px 32px;
 }
 
-.label-checkbox:checked + .span-label-checkbox {
+input[type='checkbox']:checked + .label-checkbox > .span-label-checkbox {
   background-color: var(--Pressed-state);
   border: none;
   fill: var(--Light);
@@ -874,8 +874,4 @@ ul {
 
 .link-span-checkbox {
   color: var(--Primary-Brand);
-}
-
-.label-checkbox {
-  gap: 8px;
 }
